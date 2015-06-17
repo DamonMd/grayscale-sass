@@ -14246,7 +14246,7 @@ a:hover, a:focus {
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: #000 url(../images/intro-bg.jpg) no-repeat scroll bottom center;
+  background: #000 url(../images/bern2.png) no-repeat scroll bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -14269,7 +14269,7 @@ a:hover, a:focus {
     padding: 0;
   }
   .intro .intro-body .brand-heading {
-    font-size: 100px;
+    font-size: 30px;
   }
   .intro .intro-body .intro-text {
     font-size: 25px;
@@ -14303,7 +14303,7 @@ a:hover, a:focus {
   width: 100%;
   padding: 50px 0;
   color: #fff;
-  background: #000 url(../images/downloads-bg.jpg) no-repeat scroll center center;
+  background: #000 url(../images/Matterhorn-Zermatt-Snow-Fog-BW.jpg) no-repeat scroll center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -14404,4 +14404,30 @@ img::selection {
 }
 img::-moz-selection {
   background: transparent;
+}
+
+#carousel_pic {
+  height: 400px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.item p{
+  margin-bottom: 70px;
+}
+
+.carousel-caption{
+  padding: 200px;
+}
+
+#projects {
+  width: 100%;
+  padding: 50px 0;
+  background: #000 url(../images/black_matterhorn_by_rajdziu-d5861cq.jpg) no-repeat scroll center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/black_matterhorn_by_rajdziu-d5861cq.jpg') no-repeat scroll center center;
+
 }
